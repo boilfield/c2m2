@@ -83,7 +83,7 @@
 
         <div class="gallery-section">
             <div class="inner-width">
-                <div class="gallery">
+                <div class="chart">
                     <a href="img/charts/april_test.png" class="image">
                         <img src="img/charts/april_test.png" alt="">
                     </a>
@@ -118,6 +118,13 @@
 
             <script>
             $(".gallery").magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery:{
+                    enabled: true
+                }
+            });
+            $(".chart").magnificPopup({
                 delegate: 'a',
                 type: 'image',
                 gallery:{

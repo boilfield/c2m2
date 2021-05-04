@@ -36,6 +36,12 @@
     justify-content: center;
 }
 
+.gallery-section .chart {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
 .gallery-section .image {
     flex: 25%;
     overflow: hidden;
@@ -79,4 +85,3 @@
 p {
     text-align: center;
 }
-
